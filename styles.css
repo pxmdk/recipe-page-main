@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
 
 :root {
   /* === Layout Breakpoints === */
@@ -21,7 +21,53 @@
   /* === Typography === */
   --font-size-body: 16px;
 }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-size: var(--font-size-body);
+  color: var(--stone-600);
   background-color: var(--stone-100);
+}
+.container {
+  width: 736px;
+  margin: 0 auto;
+  background-color: var(--white);
+  padding: 40px;
+}
+.featured-image {
+  width: 100%;
+  height: 300px;
+  background-image: url("./images/featured-image.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+h1 {
+  font-family: "young serif", serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: var(--stone-900);
+  margin-bottom: 24px;
+}
+p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: var(--stone-600);
+  margin-bottom: 32px;
+}
+.preperation-time {
+  background-color: var(--rose-50);
+  padding: 24px;
+}
+.preperation-time h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--rose-800);
+  margin-bottom: 16px;
 }
