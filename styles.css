@@ -71,3 +71,15 @@ p {
   color: var(--rose-800);
   margin-bottom: 16px;
 }
+.preperation-time ul {
+  padding-left: 32px;
+}
+.preperation-time li {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--stone-600);
+  margin-bottom: 8px;
+}
+.preperation-time li::marker {
+  color: var(--rose-800);
+}
